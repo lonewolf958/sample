@@ -418,7 +418,7 @@ const MENU_DATA = [
    CART CONFIGURATION
    ========================================================================= */
 
-const WHATSAPP_NUMBER = "255789100555";
+const WHATSAPP_NUMBER = "255777455433";
 const RESTAURANT_NAME = "Bismillah Hanan Fast Food";
 const CART_STORAGE_KEY = "bismillahHananCart";
 
