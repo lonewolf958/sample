@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bismillah Hanan Fast Food | Tasty, Healthy &amp; Lovely</title>
+  <meta name="description" content="Welcome to Bismillah Hanan Fast Food. View our table menu or order your favourite meals online.">
+
+  <!-- Google Fonts: Playfair Display for headings, Poppins for body text -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =========================================================
+     HEADER
+     ========================================================= -->
+
+<header class="site-header">
+
+  <div class="header-inner">
+
+    <!-- Restaurant Logo -->
+    <div class="brand-logo">
+      <img
+        src="logo.jpeg"
+        alt="Bismillah Hanan Fast Food Logo"
+      />
+    </div>
+
+    <!-- Restaurant Brand -->
+    <div class="brand-copy">
+
+      <p class="brand-eyebrow">Bismillah</p>
+
+      <h1 class="brand-name">
+        Hanan Fast Food
+      </h1>
+
+      <p class="brand-tagline">
+        Tasty, Healthy &amp; Lovely
+      </p>
+
+    </div>
+
+    <!-- Header Information -->
+    <div class="header-strip">
+
+      <div class="header-strip-item">
+        <span class="header-icon">📍</span>
+        <span>Fire &amp; Mazengo Street, Upanga </span>
+      </div>
+
+		<div class="header-strip-item">
+        <span class="header-icon">🕛</span>
+        <span>6pm - 12am</span>
+      </div>
+		
+      <div class="header-strip-item">
+        <span class="header-icon">📞</span>
+        <a href="tel:0655657788">0655 657 788</a>
+      </div>
+
+      <div class="header-strip-item">
+        <span class="header-icon">📞</span>
+        <a href="tel:0787100555">0787 100 555</a>
+      </div>
+
+      <div class="header-strip-item">
+        <span class="header-icon">🛵</span>
+        <span>Home Delivery Available</span>
+      </div>
+
+    </div>
+
+  </div>
+
+</header>
+
+<main>
+    <!-- ============ HERO / WELCOME SECTION ============ -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <p class="hero-kicker">Bismillah Hanan Fast Food</p>
+          <h1 id="hero-heading">Welcome!</h1>
+          <p class="hero-tagline">Tasty, Healthy &amp; Lovely.</p>
+          <p class="hero-copy">Enjoy delicious meals and explore our menu, or order your favourite food online — whichever suits you best today.</p>
+          <a href="#choose" class="hero-scroll-cta">
+            <span>See your options</span>
+            <span class="hero-scroll-arrow" aria-hidden="true">↓</span>
+          </a>
+        </div>
+
+        <div class="hero-media">
+          <!-- Hero image: replace images/hero.jpg with the real photo when available -->
+          <div class="hero-image-frame">
+            <img
+              src="hero.png"
+              alt="A warm plate of freshly prepared food from Bismillah Hanan Fast Food"
+              class="hero-image"
+              onerror="this.closest('.hero-image-frame').classList.add('image-fallback')"
+            >
+            <div class="fallback-label" aria-hidden="true">
+              <span>Add hero.jpg</span>
+              <small>images/hero.jpg — 1000×1200px recommended</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TWO MAIN OPTIONS ============ -->
+    <section class="choose" id="choose" aria-labelledby="choose-heading">
+      <h2 id="choose-heading" class="section-heading">How would you like to continue?</h2>
+
+      <div class="choice-grid">
+
+        <!-- Card 1: Table Menu -->
+        <a href="index1.html" class="choice-card choice-card--menu">
+          <span class="choice-icon" aria-hidden="true">📖</span>
+          <h3>Table Menu</h3>
+          <p>View our menu and explore our delicious meals.</p>
+          <span class="choice-button">View Table Menu</span>
+        </a>
+
+        <!-- Card 2: Order Online -->
+        <a href="index2.html" class="choice-card choice-card--order">
+          <span class="choice-icon" aria-hidden="true">🛒</span>
+          <h3>Order Online</h3>
+          <p>Browse our menu and place your order online.</p>
+          <span class="choice-button">Order Online</span>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- ============ FEATURED FOOD SECTION ============ -->
+    <section class="featured" aria-labelledby="featured-heading">
+      <h2 id="featured-heading" class="section-heading">A Taste You'll Love</h2>
+
+      <div class="featured-track">
+        <figure class="food-card">
+          <div class="food-image-frame">
+            <img src="Platter.jpeg" alt="Platter" loading="lazy" onerror="this.closest('.food-image-frame').classList.add('image-fallback')">
+            <div class="fallback-label" aria-hidden="true"><span>Platter.jpg</span></div>
+          </div>
+          <figcaption>Platter</figcaption>
+        </figure>
+
+        <figure class="food-card">
+          <div class="food-image-frame">
+            <img src="Steak.jpeg" alt="Steak" loading="lazy" onerror="this.closest('.food-image-frame').classList.add('image-fallback')">
+            <div class="fallback-label" aria-hidden="true"><span>Steak.jpg</span></div>
+          </div>
+          <figcaption>Steak</figcaption>
+        </figure>
+
+        <figure class="food-card">
+          <div class="food-image-frame">
+            <img src="Mutton chops.jpeg" alt="Mutton chops" loading="lazy" onerror="this.closest('.food-image-frame').classList.add('image-fallback')">
+            <div class="fallback-label" aria-hidden="true"><span>Mutton chops.jpg</span></div>
+          </div>
+          <figcaption>Mutton Chops</figcaption>
+        </figure>
+
+        <figure class="food-card">
+          <div class="food-image-frame">
+            <img src="Pizza.jpeg" alt="Pizza" loading="lazy" onerror="this.closest('.food-image-frame').classList.add('image-fallback')">
+            <div class="fallback-label" aria-hidden="true"><span>Pizza.jpg</span></div>
+          </div>
+          <figcaption>Pizza</figcaption>
+        </figure>
+		
+      </div>
+    </section>
+
+    <!-- ============ ABOUT SECTION ============ -->
+    <section class="about" aria-labelledby="about-heading">
+        <div class="about-text">
+          <h2 id="about-heading" class="section-heading section-heading--left">About Bismillah Hanan Fast Food</h2>
+          <p>Welcome to Bismillah Hanan Fast Food, where great taste meets a warm and friendly experience. Explore our menu, discover your favourite meals and enjoy delicious food made for you.</p>
+        </div>
+      </div>
+    </section>
+	  <!-- ============ ABOUT SECTION ============ -->
+    <section class="about" aria-labelledby="about-heading">
+		<h2 id="about-heading" class="section-heading section-heading--left">We Also Have Our Own Butcher Shop.</h2>
+      <div class="about-inner">
+        <div class="about-image-frame">
+          <img src="Butcher.jpeg" alt="Hannan Butchery Shop" loading="lazy" onerror="this.closest('.about-image-frame').classList.add('image-fallback')">
+          <div class="fallback-label" aria-hidden="true"><span>Butcher shop.jpg</span></div>
+        </div>
+        <div class="about-text">
+          <h2 id="about-heading" class="section-heading section-heading--left"></h2>
+          <p>
+			  For more information, contact us below or visit us at our butcher shop.
+			  <br>
+		  📞 <a href="tel:0789100555">0789 100 555</a>
+			  <br>
+		  📍  Fire &amp; Mazengo Street, Upanga.
+		  </p>
+        </div
+      </div>
+    </section>
+	
+
+  <!-- ============ FOOTER ============ -->
+  
+  <footer class="site-footer">
+
+
+<div class="footer-inner">
+
+  <!-- Footer Brand -->
+  <div class="footer-brand">
+
+    <p class="footer-name">
+      Bismillah Hanan Fast Food
+    </p>
+
+    <p class="footer-tagline">
+      Tasty, Healthy &amp; Lovely
+    </p>
+
+  </div>
+
+  <!-- Restaurant Details -->
+  <div class="footer-details">
+
+    <p class="footer-heading">
+      Visit &amp; Order
+    </p>
+
+    <p>
+     Fire &amp; Mazengo Street, Upanga
+    </p>
+
+    <p>
+      📞 <a href="tel:0655657788">0655 657 788</a>
+      &nbsp;·&nbsp;
+      📞 <a href="tel:0787100555">0787 100 555</a>
+    </p>
+
+    <p>
+      We do home delivery.
+    </p>
+
+  </div>
+
+  <!-- Catering -->
+  <div class="footer-catering">
+
+    <p class="footer-heading">
+      Catering For
+    </p>
+
+    <p>
+      Birthday Parties &amp; Wedding Ceremonies
+    </p>
+
+  </div>
+
+</div>
+
+<!-- Copyright -->
+<p class="footer-copyright">
+  © <span id="year"></span>
+Bismillah Hanan Fast Food. All rights reserved.
+</p>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
